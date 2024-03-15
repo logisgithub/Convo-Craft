@@ -1,0 +1,223 @@
+{
+    "intents": [
+        {
+            "tag": "Types of DSA",
+            "patterns": [
+                "What are the types of DSA?"
+            ],
+            "responses": [
+                "Linear and Non-Linear"
+            ]
+        },
+        {
+            "tag": "Encapsulation",
+            "patterns": [
+                "What is encapsulation in OOP?"
+            ],
+            "responses": [
+                "bundling data" ,"methods" ,"single unit (class).","Data hiding","information hiding","private"
+            ]
+        },
+        {
+            "tag": "DBMS",
+            "patterns": [
+                "What is a Database Management System (DBMS)?"
+            ],
+            "responses": [
+                "A Database Management System (DBMS)","creation", "organization", "management","managing","organizing database.","store"
+            ]
+        },
+        {
+            "tag": "SQL",
+            "patterns": [
+                "What is SQL?"
+            ],
+            "responses": [
+                "Structured Query Language","manipulating" ,"query","Structured Query Language","Retrieve data from database","database"
+            ]
+        },
+        {
+            "tag": "C",
+            "patterns": [
+                "What is C programming?"
+            ],
+            "responses": [
+                "procedural programming language","Not support Object oriented programming","not support oops","faster than python","compiler language"
+            ]
+        },
+        {
+            "tag": "Python",
+            "patterns": [
+                "What is Python?"
+            ],
+            "responses": [
+                "interpreted programming language","oops","Object oriented programming","ai","ml"
+            ]
+        },
+        {
+            "tag": "Array and Linked List",
+            "patterns": [
+                "What is the difference between an array and a linked list?"
+            ],
+            "responses": [
+                "An array is a static data structure with a fixed size, while a linked list is a dynamic data structure that can grow or shrink during execution.",
+                "pointers","contiguous memory location","linked","chain"
+            ]
+        },
+        {
+            "tag": "Abstraction for software design",
+            "patterns": [
+                "How does abstraction contribute to better software design in OOP?"
+            ],
+            "responses": [
+                "Data hiding","information hiding","private","cannot access","hiding","showing essential details","car","essential","irrelevant"
+            ]
+        },
+        {
+            "tag": "Database schema",
+            "patterns": [
+                "Explain the concept of a database schema."
+            ],
+            "responses": [
+                "A database schema defines the structure of a database, including tables, fields, relationships, views, and constraints.","rows and columns","table"
+            ]
+        },
+        {
+            "tag": "GroupBy Clause",
+            "patterns": [
+                "What is the purpose of the GROUP BY clause in SQL?"
+            ],
+            "responses": [
+                "The GROUP BY clause in SQL is used to group rows based on the values of one or more columns, often used with aggregate functions to perform operations on each group.","group based on same row values","same row"
+            ]
+        },
+        {
+            "tag": "Arrays and Pointers",
+            "patterns": [
+                "How are arrays and pointers related in C?"
+            ],
+            "responses": [
+                "In C, an array name can be considered a constant pointer to the first element of the array. Both arrays and pointers are closely related in memory management and accessing elements.","contiguous memory location","address"
+            ]
+        },
+        {
+            "tag": "Decorators",
+            "patterns": [
+                "What are decorators in Python?"
+            ],
+            "responses": [
+                "In Python, decorators are a powerful and flexible way to modify or extend the behavior of functions or methods without changing their code. They are often used for aspects like logging, timing, or access control.",
+                "extend","methods","functions"
+            ]
+        },
+        {
+            "tag": "Types of linear data structures",
+            "patterns": [
+                "What are types of linear data structures?"
+            ],
+            "responses": [
+                "Array","linked list","stack","queue"
+            ]
+        },
+        {
+            "tag": "Types of Non-linear data structures",
+            "patterns": [
+                "What are types of non-linear data structures?"
+            ],
+            "responses": [
+                "Trees","Graphs"
+            ]
+        },
+        {
+            "tag": "Keys in SQL",
+            "patterns": [
+                "What are the different keys available in SQL?"
+            ],
+            "responses": [
+                "primary","foreign","canditate","super"
+            ]
+        },
+        {
+            "tag": "Primary Key in SQL",
+            "patterns": [
+                "What is a primary key in SQL?"
+            ],
+            "responses": [
+                "unique","uniquely","rows","values","not null","foreign key"
+            ]
+        },
+        {
+            "tag": "Joins",
+            "patterns": [
+                "What are joins in sql?"
+            ],
+            "responses": [
+                "combines","two or more","column"
+            ]
+        },
+        {
+            "tag": "Types of joins",
+            "patterns": [
+                "What are types of JOINS in SQL?"
+            ],
+            "responses": [
+                "inner","outer","left outer","right outer","full join","full outer join"
+            ]
+        },
+        {
+            "tag": "Data Structures",
+            "patterns": ["What are common types of data structures?"],
+            "responses": ["Arrays", "Linked lists", "Stacks", "Queues", "Trees", "Graphs"]
+          },
+          {
+            "tag": "Algorithm Analysis",
+            "patterns": ["How do you analyze the time complexity of an algorithm?"],
+            "responses": ["Big-O notation", "Time complexity", "Space complexity", "Asymptotic analysis"]
+          },
+          {
+            "tag": "Object-Oriented Programming",
+            "patterns": ["Explain the concept of inheritance in OOP."],
+            "responses": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction", "Class", "Object"]
+          },
+          {
+            "tag": "Database Management Systems",
+            "patterns": ["What is normalization in database design?"],
+            "responses": ["Normalization", "Denormalization", "Primary key", "Foreign key", "Indexing"]
+          },
+          {
+            "tag": "Network Protocols",
+            "patterns": ["Describe the purpose of the TCP/IP protocol stack."],
+            "responses": ["TCP/IP", "HTTP", "HTTPS", "DNS", "IP address", "Subnetting"]
+          },
+          {
+            "tag": "Artificial Intelligence",
+            "patterns": ["What is machine learning and how does it work?"],
+            "responses": ["Machine learning", "Neural networks", "Supervised learning", "Unsupervised learning"]
+          },
+          {
+            "tag": "Web Development",
+            "patterns": ["Explain the difference between HTTP and HTTPS."],
+            "responses": ["HTML", "CSS", "JavaScript", "HTTP methods", "REST", "Responsive design"]
+          },
+          {
+            "tag": "Operating Systems",
+            "patterns": ["What is the role of the operating system's kernel?"],
+            "responses": ["Kernel", "Process management", "Memory management", "File systems"]
+          },
+          {
+            "tag": "Cybersecurity",
+            "patterns": ["How does encryption contribute to cybersecurity?"],
+            "responses": ["Encryption", "Firewalls", "Vulnerability assessment", "Penetration testing"]
+          },
+          {
+            "tag": "Software Development Life Cycle (SDLC)",
+            "patterns": ["What are the key phases of the software development life cycle?"],
+            "responses": ["Requirements gathering", "Design", "Coding", "Testing", "Deployment", "Maintenance"]
+          },
+          {
+            "tag": "Java",
+            "patterns": ["What is multithreading in Java?"],
+            "responses": ["multiple threads","lightweight","parallel","concurrently","reliablity","process of executing multiple threads"]
+          }
+    ]
+}

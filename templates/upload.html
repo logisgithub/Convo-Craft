@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload PDF File</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+    
+        nav {
+          background-color: #333;
+          overflow: hidden;
+        }
+    
+        nav a {
+          float: right;
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+    
+        nav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        nav h1{
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            font-size: large;
+        }    
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 3px;
+            background-color: rgb(227, 10, 10);
+        }
+      </style>
+    </head>
+    <nav>
+      <a href="#home">Log-In</a>
+      <a href="#about">About Us</a>
+      <a href="index.html">Home</a>
+    </nav>
+    <h2>Upload PDF File</h2>
+    <form action="http://localhost:5000/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="pdfFile" accept=".pdf" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
